@@ -376,6 +376,43 @@ button:focus {
 ============================================================================================ */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+
+.menu-logo {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  top: 18px;
+  left: 20px;
+  float: left;
+  z-index: 999;
+}
+.menu-logo span {
+  height: 5px;
+  width: 30px;
+  background: #222222;
+  display: block;
+  margin: 4px;
+  border-radius: 2px;
+}
+#logoImg {
+  height: 50px;
+  width: 50px;
+}
+
+@media (max-width: 1920px) {
+  .menu-logo {
+    display: none;
+  }
+}
+@media (max-width: 570px) {
+  .menu-logo {
+    display: block;
+    background: #fff;
+    padding: 5px 5px 5px 5px;
+    margin-top: -5px;
+  }
+}
+
 .menu-trigger {
   display: inline-block;
   cursor: pointer;
