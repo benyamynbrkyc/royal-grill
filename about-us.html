@@ -92,11 +92,13 @@
             <div class="row d-flex align-items-center">
               <div class="col-lg-7 col-md-12">
                 <h1>About Us</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  iaculis volutpat ligula pretium ornare. Nunc id justo
-                  ultrices, tempus enim at, condimentum ipsum. 
-                </p>
+                <a
+                  style="font-size: larger"
+                  href="https://goo.gl/maps/9kjKXrKSWKWQFkCx9"
+                >
+                  Visit us:
+                  <img src="img/icons/location_on-black-24dp.svg" />
+                </a>
               </div>
               <div class="col-lg-5 col-md-12">
                 <div class="page-link-wrap">
@@ -120,10 +122,17 @@
               <div class="main_title">
                 <h1>A long tradition...</h1>
                 <p id="aboutText">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  It's been our passion for over 25 years to give our customers
+                  the best overall experience and make our restaurant their
+                  favorite place to go to. Our mission is to provide our
+                  customers with top quality food, great service, and ambiance.
+                  <br />
+                  <br />
+                  We offer a wide variety of freshly prepped meals ranging from
+                  our breakfast specials to our lunch sandwiches and dinners. We
+                  want to give a special thank you to all of our customers that
+                  continue to support us and and make it possible to continue to
+                  do what we love doing everyday.
                 </p>
               </div>
             </div>
@@ -177,17 +186,46 @@
       <!--================ Start Footer Area =================-->
       <footer class="footer-area overlay">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-2 col-md-4 col-sm-6">
+          <div class="row" id="footerContent">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="contact_info">
+                <div class="info_item">
+                  <i class="lnr lnr-home"></i>
+                  <h6 style="color: white">Detroit, Michigan</h6>
+                  <p style="color: rgb(175, 175, 175)">9850 Livernois Ave</p>
+                </div>
+                <div class="info_item">
+                  <i class="lnr lnr-phone-handset"></i>
+                  <h6>
+                    <a style="color: white" href="#">313-834-1100</a>
+                  </h6>
+                  <p style="color: rgb(175, 175, 175)">
+                    <!-- TODO: what time open -->
+                    Mon to Fri 9am to 6 pm
+                  </p>
+                </div>
+                <div class="info_item">
+                  <i class="lnr lnr-envelope"></i>
+                  <!-- TODO: Get email -->
+                  <h6><a style="color: white" href="#">email@email.com</a></h6>
+                  <p style="color: rgb(175, 175, 175)">
+                    Send us your query anytime!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-6" style="margin-left: 50px">
               <div class="single-footer-widget">
-                <h6>Menu Title</h6>
+                <h6>Site Map</h6>
                 <div class="row">
                   <div class="col">
                     <ul class="list">
-                      <li><a href="#">Menu Item</a></li>
-                      <li><a href="#">Menu Item</a></li>
-                      <li><a href="#">Menu Item</a></li>
-                      <li><a href="#">Menu Item</a></li>
+                      <li><a href="/">Home</a></li>
+                      <li><a href="/about">About</a></li>
+                      <li><a href="/menu.pdf">Menu</a></li>
+                      <li><a href="/chefs">Chefs</a></li>
+                      <li><a href="/contact">Contact</a></li>
                     </ul>
                   </div>
                 </div>
@@ -195,88 +233,11 @@
             </div>
             <div class="col-lg-2 col-md-4 col-sm-6">
               <div class="single-footer-widget">
-                <h6>Menu Title</h6>
+                <!-- <h6>Menu Title</h6> -->
                 <div class="row">
                   <div class="col">
-                    <ul class="list">
-                      <li><a href="#">Menu Item</a></li>
-                      <li><a href="#">Menu Item</a></li>
-                      <li><a href="#">Menu Item</a></li>
-                      <li><a href="#">Menu Item</a></li>
-                    </ul>
+                    <img src="img/logo.png" id="footerLogo" />
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6">
-              <div class="single-footer-widget">
-                <h6>Menu Title</h6>
-                <div class="row">
-                  <div class="col">
-                    <ul class="list">
-                      <li><a href="#">Menu Item</a></li>
-                      <li><a href="#">Menu Item</a></li>
-                      <li><a href="#">Menu Item</a></li>
-                      <li><a href="#">Menu Item</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6">
-              <div class="single-footer-widget">
-                <h6>Menu Title</h6>
-                <div class="row">
-                  <div class="col">
-                    <ul class="list">
-                      <li><a href="#">Menu Item</a></li>
-                      <li><a href="#">Menu Item</a></li>
-                      <li><a href="#">Menu Item</a></li>
-                      <li><a href="#">Menu Item</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-8">
-              <div class="single-footer-widget">
-                <h6>Newsletter</h6>
-                <p>Stay updated with our latest</p>
-                <div class="" id="mc_embed_signup">
-                  <form
-                    target="_blank"
-                    novalidate="true"
-                    action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                    method="get"
-                    class="form-inline"
-                  >
-                    <div class="d-flex flex-row">
-                      <input
-                        class="form-control"
-                        name="EMAIL"
-                        placeholder="Enter Email"
-                        onfocus="this.placeholder = ''"
-                        onblur="this.placeholder = 'Enter Email '"
-                        required=""
-                        type="email"
-                      />
-                      <button class="click-btn btn btn-default">
-                        <i
-                          class="fa fa-long-arrow-right"
-                          aria-hidden="true"
-                        ></i>
-                      </button>
-                      <div style="position: absolute; left: -5000px">
-                        <input
-                          name="b_36c4fd991d266f23781ded980_aefe40901a"
-                          tabindex="-1"
-                          value=""
-                          type="text"
-                        />
-                      </div>
-                    </div>
-                    <div class="info"></div>
-                  </form>
                 </div>
               </div>
             </div>
@@ -301,7 +262,7 @@
           </div>
         </div>
       </footer>
-      <!--================ Start Footer Area =================-->
+      <!--================ End Footer Area =================-->
     </div>
 
     <!-- Optional JavaScript -->

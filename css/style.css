@@ -206,12 +206,12 @@ button:focus {
 .primary-btn {
   position: relative;
   display: inline-block;
-  padding: 0px 30px;
+  padding: 0px 15px;
   color: #222222;
   background: #fff;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 50px;
   border: 1px solid #f42f2c;
@@ -397,6 +397,12 @@ button:focus {
 #logoImg {
   height: 50px;
   width: 50px;
+}
+
+@media only screen and (min-width: 1920px) {
+  #logoImg {
+    display: none;
+  }
 }
 
 @media (max-width: 1920px) {
@@ -1858,6 +1864,7 @@ button:focus {
 .mapBox {
   height: 420px;
   margin-bottom: 80px;
+  width: 100%;
 }
 
 .contact_info .info_item {
