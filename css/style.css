@@ -3703,6 +3703,7 @@ h6 {
 
 .logoImg {
   max-width: 100px;
+  height: auto !important;
 }
 
 /*============== End-area css ===============*/
