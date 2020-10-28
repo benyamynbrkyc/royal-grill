@@ -43,3 +43,9 @@
     margin-left: 250px;
   }
 }
+
+@media (max-width: 767px) {
+  #inAssociationWith {
+    margin-top: 68px;
+  }
+}
