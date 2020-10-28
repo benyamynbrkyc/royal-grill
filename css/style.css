@@ -3702,8 +3702,7 @@ h6 {
 }
 
 .logoImg {
-  max-width: 100px;
-  /* height: 100px !important; */
+  height: 100px !important;
 }
 
 /*============== End-area css ===============*/
