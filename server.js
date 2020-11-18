@@ -14,9 +14,6 @@ app.get('/about', (req, res) => {
 app.get('/menu', (req, res) => {
   res.sendFile(path.join(__dirname, '/menu.pdf'));
 });
-app.get('/chefs', (req, res) => {
-  res.sendFile(path.join(__dirname, '/chefs.html'));
-});
 app.get('/contact', (req, res) => {
   res.sendFile(path.join(__dirname, '/contact.html'));
 });
