@@ -690,7 +690,7 @@ button:focus {
 }
 
 .home_banner_area.common-banner {
-  background: url(../img/banner/common-banner.jpg) no-repeat scroll center
+  background: url(../img/banner/home-banner-mobile.webp) no-repeat scroll center
     center;
   background-size: cover;
 }
@@ -3488,7 +3488,7 @@ h6 {
 /*----------------------------------------------------*/
 /*============== footer-area css ===============*/
 .footer-area {
-  background: url(../img/footer-bg.jpg) center no-repeat;
+  background: url(../img/footer-bg.webp) center no-repeat;
   background-size: cover;
   z-index: 1;
   padding: 100px 0;
