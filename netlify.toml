@@ -1,0 +1,5 @@
+[[redirects]]
+    from = "/about"
+    to = "/about.html"
+    statuse = 200
+    force = true
