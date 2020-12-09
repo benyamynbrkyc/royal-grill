@@ -1,5 +1,17 @@
 [[redirects]]
     from = "/about"
-    to = "/about.html"
+    to = "/about-us.html"
+    statuse = 200
+    force = true
+
+[[redirects]]
+    from = "/menu"
+    to = "/menu.pdf"
+    statuse = 200
+    force = true
+
+[[redirects]]
+    from = "/contact"
+    to = "/contact.html"
     statuse = 200
     force = true
